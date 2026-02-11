@@ -499,7 +499,6 @@ ul {
     width: 210px;
     height: 314px;
     object-fit: cover;
-    border: 1px solid #313131;
 }
 
 .profile-info.light {
@@ -736,8 +735,8 @@ ul {
 
 .admission-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 30px 20px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px 30px;
 }
 
 .admission-item {
@@ -745,7 +744,7 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .admission-item img {
@@ -754,11 +753,19 @@ ul {
     object-fit: contain;
 }
 
-.admission-item span {
-    font-size: 13px;
-    font-weight: 400;
+.admission-item .school-name {
+    font-size: 14px;
+    font-weight: 600;
     color: var(--color-dark);
     line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.admission-item .student-list {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.6;
     letter-spacing: -0.02em;
 }
 
@@ -822,8 +829,13 @@ ul {
 }
 
 .gallery-item {
+    display: block;
     overflow: hidden;
     aspect-ratio: 1 / 1;
+}
+
+a.gallery-item {
+    cursor: pointer;
 }
 
 .gallery-item img {
@@ -972,7 +984,7 @@ ul {
     }
 
     .admission-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .awards-columns {
@@ -1122,8 +1134,8 @@ ul {
     }
 
     .admission-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px 16px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
     }
 
     .admission-item img {
@@ -1131,8 +1143,12 @@ ul {
         height: 60px;
     }
 
-    .admission-item span {
-        font-size: 11px;
+    .admission-item .school-name {
+        font-size: 12px;
+    }
+
+    .admission-item .student-list {
+        font-size: 10px;
     }
 
     .awards-section-title {

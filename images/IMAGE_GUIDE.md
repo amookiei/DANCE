@@ -54,23 +54,26 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 | `program-adult-ballet.jpg` | 성인 발레 | 600x400 |
 | `program-adult-korean.jpg` | 성인 한국무용 | 600x400 |
 
-### Awards - 입시 현황 로고 (12개)
-대학교 및 예술고등학교, 교육원 로고입니다. 투명 배경 PNG 권장.
+### Awards - 입시 현황 로고 (15개)
+대학교 및 예술고등학교, 중학교 로고입니다. 투명 배경 PNG 권장.
 
 | 파일명 | 설명 | 권장 사이즈 |
 |--------|------|-------------|
 | `logo-karts.png` | 한국예술종합학교 로고 | 80x80 |
-| `logo-ewha.png` | 이화여자대학교 로고 | 80x80 |
+| `logo-skku.png` | 성균관대학교 로고 | 80x80 |
 | `logo-chung.png` | 중앙대학교 로고 | 80x80 |
-| `logo-khu.png` | 경희대학교 로고 | 80x80 |
 | `logo-sejong.png` | 세종대학교 로고 | 80x80 |
+| `logo-hanyang.png` | 한양대학교 로고 | 80x80 |
+| `logo-khu.png` | 경희대학교 로고 | 80x80 |
 | `logo-sookmyung.png` | 숙명여자대학교 로고 | 80x80 |
-| `logo-sangmyung.png` | 상명대학교 로고 | 80x80 |
-| `logo-chugye.png` | 추계예술대학교 로고 | 80x80 |
+| `logo-hansung.png` | 한성대학교 로고 | 80x80 |
 | `logo-sunhwa.png` | 선화예술고등학교 로고 | 80x80 |
+| `logo-sunhwa-middle.png` | 선화예술중학교 로고 | 80x80 |
 | `logo-kntaa.png` | 국립전통예술고등학교 로고 | 80x80 |
-| `logo-seoularts.png` | 서울예술고등학교 로고 | 80x80 |
-| `logo-kaig.png` | 한국예술영재교육원 로고 | 80x80 |
+| `logo-gugak-high.png` | 국립국악고등학교 로고 | 80x80 |
+| `logo-gugak-middle.png` | 국립국악중학교 로고 | 80x80 |
+| `logo-kaywon.png` | 계원예술고등학교 로고 | 80x80 |
+| `logo-goyang.png` | 고양예술고등학교 로고 | 80x80 |
 
 ### Gallery - 갤러리 이미지 (4x3 그리드, 모바일 2x6)
 | 파일명 | 권장 사이즈 (1:1 비율) |
@@ -112,6 +115,6 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 
 ---
 
-## 총 이미지 개수: 약 47개
+## 총 이미지 개수: 약 50개
 
 모든 이미지를 준비한 후 브라우저에서 `index.html`을 열어 확인해주세요.
