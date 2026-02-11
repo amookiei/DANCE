@@ -774,17 +774,18 @@ ul {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
 .gallery-item {
     overflow: hidden;
+    aspect-ratio: 1 / 1;
 }
 
 .gallery-item img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
@@ -1088,10 +1089,6 @@ ul {
         gap: 10px;
     }
 
-    .gallery-item img {
-        height: 180px;
-    }
-
     /* Location */
     .location-content {
         padding: 40px 20px;
@@ -1128,11 +1125,7 @@ ul {
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .gallery-item img {
-        height: 220px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .awards-images {
