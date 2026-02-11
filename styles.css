@@ -15,7 +15,7 @@
     --color-light: #f7f6f2;
     --color-gray: #bcbcbc;
     --color-border: #c3c3c3;
-    --color-overlay: rgba(0, 0, 0, 0);
+    --color-overlay: rgba(0, 0, 0, 0.3);
     --color-overlay-dark: rgba(0, 0, 0, 0);
     --color-overlay-darker: rgba(0, 0, 0, 0.9);
 
