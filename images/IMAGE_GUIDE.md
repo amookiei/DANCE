@@ -44,33 +44,33 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 | `instructor-kimek.jpg` | 김은경 | 강사 | 210x314 |
 | `instructor-jung.jpg` | 정혜진 | 강사 | 210x314 |
 
-### Programs - 프로그램 이미지
+### Programs - 프로그램 이미지 (6개)
 | 파일명 | 설명 | 권장 사이즈 |
 |--------|------|-------------|
-| `program-infant1.jpg` | 유아발레 이미지 1 | 400x300 |
-| `program-infant2.jpg` | 유아발레 이미지 2 | 400x300 |
-| `program-elem1.jpg` | 초등부 이미지 1 | 400x300 |
-| `program-elem2.jpg` | 초등부 이미지 2 | 400x300 |
-| `program-middle1.jpg` | 중등/고등부 입시반 이미지 1 | 400x300 |
-| `program-middle2.jpg` | 중등/고등부 입시반 이미지 2 | 400x300 |
-| `program-adult1.jpg` | 성인반 이미지 1 | 400x300 |
-| `program-adult2.jpg` | 성인반 이미지 2 | 400x300 |
+| `program-infant.jpg` | 유아 발레 | 600x400 |
+| `program-elem-ballet.jpg` | 초등 발레 | 600x400 |
+| `program-elem-korean.jpg` | 초등 한국무용 / 영재반 | 600x400 |
+| `program-major.jpg` | 예비전공반 / 전공반 | 600x400 |
+| `program-adult-ballet.jpg` | 성인 발레 | 600x400 |
+| `program-adult-korean.jpg` | 성인 한국무용 | 600x400 |
 
-### Awards - 수상 이미지
+### Awards - 입시 현황 로고 (12개)
+대학교 및 예술고등학교, 교육원 로고입니다. 투명 배경 PNG 권장.
+
 | 파일명 | 설명 | 권장 사이즈 |
 |--------|------|-------------|
-| `award-1.jpg` | 수상/공연 이미지 1 | 300x200 |
-| `award-2.jpg` | 수상/공연 이미지 2 | 300x200 |
-| `award-3.jpg` | 수상/공연 이미지 3 | 300x200 |
-| `award-4.jpg` | 수상/공연 이미지 4 | 300x200 |
-
-### Awards - 대학교 로고
-| 파일명 | 설명 | Figma 노드 | 권장 사이즈 |
-|--------|------|------------|-------------|
-| `logo-khu.png` | 경희대학교 로고 | 4764769822... | 높이 60px |
-| `logo-kaist.png` | 한국예술종합학교 로고 | - | 높이 60px |
-| `logo-sejong.png` | 세종대학교 로고 | - | 높이 60px |
-| `logo-chung.png` | 중앙대학교 로고 | - | 높이 60px |
+| `logo-karts.png` | 한국예술종합학교 로고 | 80x80 |
+| `logo-ewha.png` | 이화여자대학교 로고 | 80x80 |
+| `logo-chung.png` | 중앙대학교 로고 | 80x80 |
+| `logo-khu.png` | 경희대학교 로고 | 80x80 |
+| `logo-sejong.png` | 세종대학교 로고 | 80x80 |
+| `logo-sookmyung.png` | 숙명여자대학교 로고 | 80x80 |
+| `logo-sangmyung.png` | 상명대학교 로고 | 80x80 |
+| `logo-chugye.png` | 추계예술대학교 로고 | 80x80 |
+| `logo-sunhwa.png` | 선화예술고등학교 로고 | 80x80 |
+| `logo-kntaa.png` | 국립전통예술고등학교 로고 | 80x80 |
+| `logo-seoularts.png` | 서울예술고등학교 로고 | 80x80 |
+| `logo-kaig.png` | 한국예술영재교육원 로고 | 80x80 |
 
 ### Gallery - 갤러리 이미지 (4x3 그리드, 모바일 2x6)
 | 파일명 | 권장 사이즈 (1:1 비율) |
@@ -112,6 +112,6 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 
 ---
 
-## 총 이미지 개수: 약 43개
+## 총 이미지 개수: 약 47개
 
 모든 이미지를 준비한 후 브라우저에서 `index.html`을 열어 확인해주세요.
