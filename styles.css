@@ -466,23 +466,30 @@ ul {
     background: var(--color-bg);
 }
 
-.profile-main {
+.profile-main-wrapper {
     background: linear-gradient(to bottom, #1a1a1a, #2a2a2a);
+}
+
+.profile-main {
     padding: 80px 40px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .profile-card {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: flex-start;
 }
 
 .profile-card.main-card {
-    max-width: 550px;
+    flex: 1;
+    max-width: 500px;
+    min-width: 400px;
 }
 
 .profile-image {
@@ -559,6 +566,11 @@ ul {
 .sub-card {
     display: flex;
     gap: 30px;
+    align-items: flex-start;
+}
+
+.sub-card .profile-image {
+    flex-shrink: 0;
 }
 
 .sub-card .profile-image img {
@@ -566,12 +578,19 @@ ul {
     height: 270px;
 }
 
+.sub-card .profile-info {
+    flex: 1;
+    min-width: 0;
+}
+
 .sub-card .profile-name {
-    font-size: 28px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .sub-card .profile-career {
     font-size: 13px;
+    line-height: 1.9;
 }
 
 /* ========================================
@@ -851,12 +870,13 @@ ul {
 
 .location-map-full {
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 40px 80px;
+    background: #F7F8FA;
 }
 
 .location-map-full img {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
     width: 100%;
     height: auto;
     aspect-ratio: 1400 / 512;
