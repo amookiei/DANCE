@@ -21,6 +21,26 @@ document.addEventListener('DOMContentLoaded', function() {
     handleNavbarScroll(); // Initial check
 
     // ========================================
+    // Floating Social Buttons - Hide after second hero
+    // ========================================
+    const floatingSocial = document.getElementById('floatingSocial');
+    const heroVisual = document.querySelector('.hero-visual');
+
+    function handleFloatingSocial() {
+        if (heroVisual && floatingSocial) {
+            const heroVisualBottom = heroVisual.offsetTop + heroVisual.offsetHeight;
+            if (window.scrollY > heroVisualBottom - 100) {
+                floatingSocial.classList.add('hidden');
+            } else {
+                floatingSocial.classList.remove('hidden');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', handleFloatingSocial);
+    handleFloatingSocial(); // Initial check
+
+    // ========================================
     // Smooth Scroll for Navigation Links
     // ========================================
     const navLinks = document.querySelectorAll('.nav-link, .mobile-link');
