@@ -4,11 +4,11 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 
 ## 필수 이미지 목록
 
-### Hero / 배경 이미지
-| 파일명 | 설명 | Figma 위치 | 권장 사이즈 |
-|--------|------|------------|-------------|
-| `hero-bg.jpg` | 메인 히어로 배경 (무용수 이미지) | Frame 2 | 1920x1080 |
-| `hero-visual.jpg` | 두번째 히어로 배경 | Frame 3 | 1920x1080 |
+### Hero / 배경 영상
+| 위치 | YouTube 링크 | 설명 |
+|------|--------------|------|
+| 메인 히어로 | https://www.youtube.com/watch?v=E8D9waPPmlI | 첫번째 히어로 배경 영상 |
+| 두번째 히어로 | https://www.youtube.com/watch?v=LQxNq0O1BeA | 두번째 히어로 배경 영상 |
 
 ### 섹션 헤더 배경
 | 파일명 | 설명 | 권장 사이즈 |
@@ -70,20 +70,26 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 | `logo-sejong.png` | 세종대학교 로고 | - | 높이 60px |
 | `logo-chung.png` | 중앙대학교 로고 | - | 높이 60px |
 
-### Gallery - 갤러리 이미지
-| 파일명 | 권장 사이즈 |
-|--------|-------------|
-| `gallery-1.jpg` | 400x300 |
-| `gallery-2.jpg` | 400x300 |
-| `gallery-3.jpg` | 400x300 |
-| `gallery-4.jpg` | 400x300 |
-| `gallery-5.jpg` | 400x300 |
-| `gallery-6.jpg` | 400x300 |
+### Gallery - 갤러리 이미지 (4x3 그리드, 모바일 2x6)
+| 파일명 | 권장 사이즈 (1:1 비율) |
+|--------|------------------------|
+| `gallery-1.jpg` | 500x500 |
+| `gallery-2.jpg` | 500x500 |
+| `gallery-3.jpg` | 500x500 |
+| `gallery-4.jpg` | 500x500 |
+| `gallery-5.jpg` | 500x500 |
+| `gallery-6.jpg` | 500x500 |
+| `gallery-7.jpg` | 500x500 |
+| `gallery-8.jpg` | 500x500 |
+| `gallery-9.jpg` | 500x500 |
+| `gallery-10.jpg` | 500x500 |
+| `gallery-11.jpg` | 500x500 |
+| `gallery-12.jpg` | 500x500 |
 
 ### Location - 지도
 | 파일명 | 설명 | 권장 사이즈 |
 |--------|------|-------------|
-| `map.jpg` | 오시는 길 지도 이미지 | 600x400 |
+| `location-map.jpg` | 오시는 길 지도 이미지 | 1400x512 |
 
 ---
 
@@ -104,6 +110,6 @@ Figma에서 다운로드한 이미지를 아래 파일명으로 `images` 폴더�
 
 ---
 
-## 총 이미지 개수: 약 35개
+## 총 이미지 개수: 약 41개
 
 모든 이미지를 준비한 후 브라우저에서 `index.html`을 열어 확인해주세요.
