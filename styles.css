@@ -499,6 +499,7 @@ ul {
     width: 210px;
     height: 314px;
     object-fit: cover;
+    border: 1px solid #ffffff00;
 }
 
 .profile-info.light {
