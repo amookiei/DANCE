@@ -53,16 +53,11 @@ a {
 /* Floating Social Buttons */
 .floating-social {
     position: fixed;
-    top: 50%;
-    left: 30px;
-    transform: translateY(-50%);
+    top: 140px;
+    left: 40px;
     display: flex;
     flex-direction: column;
-    gap: 0;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 30px;
-    padding: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    gap: 8px;
     z-index: 1000;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
@@ -73,31 +68,33 @@ a {
 }
 
 .floating-social-icon {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 50%;
     transition: all 0.3s ease;
+    background: transparent;
 }
 
 .floating-social-icon:hover {
-    background: #f0f0f0;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: white;
 }
 
 .floating-social-icon svg {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 }
 
 .floating-social-icon.naver span {
     font-family: var(--font-pretendard);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
-    color: #03C75A;
-    color: inherit;
+    color: white;
 }
 
 ul {
@@ -792,6 +789,13 @@ ul {
     margin: 0 -40px;
 }
 
+/* Honors Section */
+.honors-section {
+    background: #F7F8FA;
+    padding: 80px 40px;
+    margin: 0 -40px;
+}
+
 .admission-header {
     margin-bottom: 60px;
 }
@@ -808,7 +812,7 @@ ul {
     font-family: var(--font-pretendard);
     font-size: 32px;
     font-weight: 700;
-    color: #8B6914;
+    color: #42403E;
     margin: 0;
 }
 
@@ -1077,7 +1081,8 @@ a.gallery-item {
     }
 
     .floating-social {
-        left: 15px;
+        left: 30px;
+        top: 130px;
     }
 
     .awards-columns {
@@ -1250,7 +1255,19 @@ a.gallery-item {
     }
 
     .floating-social {
-        display: none;
+        top: 100px;
+        left: 20px;
+        gap: 6px;
+    }
+
+    .floating-social-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .floating-social-icon svg {
+        width: 16px;
+        height: 16px;
     }
 
     .awards-section-title {
