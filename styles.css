@@ -48,6 +48,55 @@ img {
 
 a {
     text-decoration: none;
+}
+
+/* Floating Social Buttons */
+.floating-social {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 30px;
+    padding: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.floating-social.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.floating-social-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.floating-social-icon:hover {
+    background: #f0f0f0;
+}
+
+.floating-social-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.floating-social-icon.naver span {
+    font-family: var(--font-pretendard);
+    font-size: 16px;
+    font-weight: 700;
+    color: #03C75A;
     color: inherit;
 }
 
@@ -391,11 +440,14 @@ ul {
 
 .section-icon {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-icon {
     width: 40px;
     height: auto;
+    display: block;
 }
 
 .section-title {
@@ -733,40 +785,71 @@ ul {
     color: var(--color-dark);
 }
 
+/* Admission Section */
+.admission-section {
+    background: #F7F8FA;
+    padding: 80px 40px;
+    margin: 0 -40px;
+}
+
+.admission-header {
+    margin-bottom: 60px;
+}
+
+.admission-header-en {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.admission-header-ko {
+    font-family: var(--font-pretendard);
+    font-size: 32px;
+    font-weight: 700;
+    color: #8B6914;
+    margin: 0;
+}
+
 .admission-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 40px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
 }
 
-.admission-item {
+.admission-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
+    gap: 40px;
 }
 
-.admission-item img {
-    width: 80px;
-    height: 80px;
+.admission-school {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.admission-school img {
+    width: auto;
+    height: 50px;
+    max-width: 150px;
     object-fit: contain;
+    object-position: left center;
 }
 
-.admission-item .school-name {
+.admission-school .student-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     font-size: 14px;
-    font-weight: 600;
-    color: var(--color-dark);
-    line-height: 1.4;
+    line-height: 2;
+    color: #555;
     letter-spacing: -0.02em;
 }
 
-.admission-item .student-list {
-    font-size: 12px;
-    font-weight: 400;
-    color: #666;
-    line-height: 1.6;
-    letter-spacing: -0.02em;
+.admission-school .student-list li {
+    padding: 0;
 }
 
 .awards-columns {
@@ -984,7 +1067,17 @@ a.gallery-item {
     }
 
     .admission-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 30px;
+    }
+
+    .admission-section {
+        padding: 60px 30px;
+        margin: 0 -30px;
+    }
+
+    .floating-social {
+        left: 15px;
     }
 
     .awards-columns {
@@ -1133,22 +1226,31 @@ a.gallery-item {
         padding: 40px 20px;
     }
 
+    .admission-section {
+        padding: 40px 20px;
+        margin: 0 -20px;
+    }
+
+    .admission-header-ko {
+        font-size: 24px;
+    }
+
     .admission-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
-    .admission-item img {
-        width: 60px;
-        height: 60px;
+    .admission-school img {
+        height: 40px;
     }
 
-    .admission-item .school-name {
-        font-size: 12px;
+    .admission-school .student-list {
+        font-size: 13px;
+        line-height: 1.8;
     }
 
-    .admission-item .student-list {
-        font-size: 10px;
+    .floating-social {
+        display: none;
     }
 
     .awards-section-title {
