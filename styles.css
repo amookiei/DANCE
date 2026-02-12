@@ -32,7 +32,6 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: #1a1a1a;
-    overscroll-behavior: none;
 }
 
 body {
@@ -41,7 +40,13 @@ body {
     color: var(--color-dark);
     line-height: 1.6;
     overflow-x: hidden;
-    overscroll-behavior: none;
+}
+
+/* Mobile only - prevent overscroll bounce */
+@media (pointer: coarse) {
+    html, body {
+        overscroll-behavior: none;
+    }
 }
 
 img {
