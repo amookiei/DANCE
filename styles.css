@@ -62,12 +62,12 @@ a {
 .floating-social {
     position: fixed;
     top: 140px;
-    left: 40px;
+    left: max(40px, calc((100vw - var(--section-max-width)) / 2 + 40px));
     display: flex;
     flex-direction: column;
     gap: 8px;
     z-index: 1000;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease, left 0.3s ease;
 }
 
 .floating-social.hidden {
@@ -1134,7 +1134,7 @@ a.gallery-item {
     }
 
     .floating-social {
-        left: 30px;
+        left: 40px;
         top: 130px;
     }
 
