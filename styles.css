@@ -139,7 +139,7 @@ ul {
 }
 
 .nav-logo-img {
-    height: 24px;
+    height: 18px;
     width: auto;
 }
 
@@ -364,14 +364,14 @@ ul {
 
 .hero-title {
     font-family: var(--font-philosopher);
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
 .hero-logo-img {
-    height: 60px;
+    height: 45px;
     width: auto;
 }
 
