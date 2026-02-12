@@ -31,7 +31,8 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    background-color: var(--color-bg);
+    background-color: #1a1a1a;
+    overscroll-behavior: none;
 }
 
 body {
@@ -40,6 +41,7 @@ body {
     color: var(--color-dark);
     line-height: 1.6;
     overflow-x: hidden;
+    overscroll-behavior: none;
 }
 
 img {
