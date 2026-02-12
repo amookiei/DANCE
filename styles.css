@@ -593,16 +593,13 @@ ul {
 .profile-career {
     list-style: disc;
     padding-left: 20px;
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.9;
     letter-spacing: 0.3px;
-    width: 260px;
-    min-height: 176px;
-    flex-shrink: 0;
 }
 
 .profile-career li {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 .profile-career strong {
@@ -648,11 +645,6 @@ ul {
 .sub-card .profile-name {
     font-size: 24px;
     margin-bottom: 20px;
-}
-
-.sub-card .profile-career {
-    font-size: 13px;
-    line-height: 1.9;
 }
 
 /* ========================================
@@ -1081,8 +1073,6 @@ a.gallery-item {
 
     .profile-career {
         text-align: left;
-        width: 260px;
-        min-height: 176px;
     }
 
     .profile-row {
@@ -1224,12 +1214,6 @@ a.gallery-item {
     .sub-card .profile-image img {
         width: 160px;
         height: 240px;
-    }
-
-    .profile-career {
-        width: 260px;
-        min-height: 176px;
-        font-size: 11px;
     }
 
     /* Programs */
