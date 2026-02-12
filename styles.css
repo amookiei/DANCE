@@ -341,7 +341,7 @@ ul {
 
 .hero-title {
     font-family: var(--font-philosopher);
-    font-size: 72px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -549,7 +549,7 @@ ul {
 }
 
 .profile-card.main-card {
-    width: calc(50% - 30px);
+    width: calc(95% - 30px);
     max-width: 600px;
 }
 
