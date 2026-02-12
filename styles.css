@@ -30,6 +30,8 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: var(--color-bg);
 }
 
 body {
@@ -133,6 +135,13 @@ ul {
     font-size: 28px;
     color: white;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-img {
+    height: 24px;
+    width: auto;
 }
 
 .nav-menu {
@@ -337,6 +346,11 @@ ul {
     font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 2px;
+}
+
+.hero-logo-img {
+    height: 80px;
+    width: auto;
 }
 
 .hero-subtitle {
@@ -682,6 +696,10 @@ ul {
     object-fit: cover;
 }
 
+.program-image img.align-top {
+    object-position: top;
+}
+
 .program-info {
     padding: 20px 0;
 }
@@ -1023,6 +1041,12 @@ a.gallery-item {
     margin-bottom: 15px;
 }
 
+.footer-logo-img {
+    height: 30px;
+    width: auto;
+    margin: 0 auto;
+}
+
 .footer-copyright {
     font-size: 13px;
     color: var(--color-gray);
@@ -1041,6 +1065,8 @@ a.gallery-item {
     }
 
     .profile-main {
+        flex-direction: column;
+        align-items: center;
         gap: 60px;
     }
 
