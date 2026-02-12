@@ -133,7 +133,7 @@ ul {
 .nav-logo {
     font-family: var(--font-philosopher);
     font-size: 28px;
-    color: white;
+    color: #00000000;
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -1030,7 +1030,7 @@ a.gallery-item {
    ======================================== */
 .footer {
     background: var(--color-dark);
-    color: white;
+    color: #ffffff00;
     padding: 40px 20px;
     text-align: center;
 }
