@@ -590,7 +590,9 @@ ul {
     letter-spacing: 1px;
 }
 
-.profile-career {
+.profile-career,
+.main-card .profile-career,
+.sub-card .profile-career {
     list-style: disc;
     padding-left: 20px;
     font-size: 13px;
