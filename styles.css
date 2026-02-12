@@ -544,7 +544,7 @@ ul {
 
 .profile-card {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: flex-start;
 }
 
@@ -975,7 +975,7 @@ a.gallery-item {
 }
 
 .location-logo img {
-    height: 80px;
+    height: 50px;
     width: auto;
 }
 
