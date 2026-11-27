@@ -546,8 +546,258 @@
         </div>
 
         <div class="schedule-content">
-            <div class="schedule-image-wrapper">
-                <img src="images/schedule.png" alt="숨무용학원 시간표" class="schedule-image">
+            <!-- Desktop Table -->
+            <div class="schedule-table-wrapper desktop-only">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th class="time-header">시간</th>
+                            <th>MON</th>
+                            <th>TUE</th>
+                            <th>WED</th>
+                            <th>THU</th>
+                            <th>FRI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time-cell">AM<br>10:00 ~ 11:00</td>
+                            <td><span class="class-ballet">성인발레 LV.1</span></td>
+                            <td></td>
+                            <td><span class="class-ballet">성인발레 LV.1</span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="time-cell">AM<br>11:00 ~ 12:00</td>
+                            <td><span class="class-ballet">성인발레 LV.2</span></td>
+                            <td>
+                                <span class="class-korean">성인 한국무용 기초</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">성인 한국무용 중급</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-ballet">성인 발레 LV.2</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">성인 한국무용</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-korean">성인 한국무용 기초</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">성인 한국무용 중급</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td><span class="class-korean">성인 한국무용 기초</span><br><span class="hall">(A홀)</span></td>
+                        </tr>
+                        <tr>
+                            <td class="time-cell">PM<br>3:30 ~ 4:25</td>
+                            <td><span class="class-ballet">초등발레<br>영재기초반</span></td>
+                            <td><span class="class-ballet">초등발레<br>영재기초반</span></td>
+                            <td><span class="class-ballet">초등발레<br>영재기초반</span></td>
+                            <td><span class="class-ballet">초등발레<br>영재기초반</span></td>
+                            <td><span class="class-ballet">초등발레<br>영재기초반</span></td>
+                        </tr>
+                        <tr>
+                            <td class="time-cell">PM<br>4:30 ~ 5:25</td>
+                            <td>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">한국무용 영재 기초반</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">유아 한국무용</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(B홀)</span><br>
+                                <span class="class-korean">한국무용 영재 기초반</span><br><span class="hall">(C홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">유아 한국무용</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td>
+                                <span class="class-ballet">유아발레</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">한국무용 영재 기초반</span><br><span class="hall">(B홀)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-cell">PM<br>5:30 ~ 6:30</td>
+                            <td>
+                                <span class="class-ballet">초등발레 영재반</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">한국무용 영재반</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td><span class="class-korean">한국무용 영재반</span><br><span class="hall">(A홀)</span></td>
+                            <td>
+                                <span class="class-ballet">초등발레 영재반</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">한국무용 영재반</span><br><span class="hall">(B홀)</span>
+                            </td>
+                            <td><span class="class-korean">한국무용 영재반</span><br><span class="hall">(A홀)</span></td>
+                            <td>
+                                <span class="class-ballet">초등발레 영재반</span><br><span class="hall">(A홀)</span><br>
+                                <span class="class-korean">한국무용 영재반</span><br><span class="hall">(B홀)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-cell">PM<br>6:30 ~ 8:30</td>
+                            <td><span class="class-major">전공반</span></td>
+                            <td>
+                                <span class="class-major">전공반</span><br>
+                                <span class="class-ballet">성인발레 LV.1</span><br><span class="time-note">*7:30 ~ 8:30</span>
+                            </td>
+                            <td><span class="class-major">전공반</span></td>
+                            <td>
+                                <span class="class-major">전공반</span><br>
+                                <span class="class-ballet">성인발레 LV.1</span><br><span class="time-note">*7:30 ~ 8:30</span>
+                            </td>
+                            <td><span class="class-major">전공반</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Mobile Cards -->
+            <div class="schedule-mobile mobile-only">
+                <div class="schedule-day-tabs">
+                    <button class="day-tab active" data-day="mon">월</button>
+                    <button class="day-tab" data-day="tue">화</button>
+                    <button class="day-tab" data-day="wed">수</button>
+                    <button class="day-tab" data-day="thu">목</button>
+                    <button class="day-tab" data-day="fri">금</button>
+                </div>
+
+                <div class="schedule-day-content active" data-day="mon">
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 10:00 ~ 11:00</div>
+                        <div class="schedule-class ballet">성인발레 LV.1</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 11:00 ~ 12:00</div>
+                        <div class="schedule-class ballet">성인발레 LV.2</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 3:30 ~ 4:25</div>
+                        <div class="schedule-class ballet">초등발레 영재기초반</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 4:30 ~ 5:25</div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재 기초반 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 5:30 ~ 6:30</div>
+                        <div class="schedule-class ballet">초등발레 영재반 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재반 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 6:30 ~ 8:30</div>
+                        <div class="schedule-class major">전공반</div>
+                    </div>
+                </div>
+
+                <div class="schedule-day-content" data-day="tue">
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 11:00 ~ 12:00</div>
+                        <div class="schedule-class korean">성인 한국무용 기초 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">성인 한국무용 중급 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 3:30 ~ 4:25</div>
+                        <div class="schedule-class ballet">초등발레 영재기초반</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 4:30 ~ 5:25</div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">유아 한국무용 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 5:30 ~ 6:30</div>
+                        <div class="schedule-class korean">한국무용 영재반 <span class="hall-tag">A홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 6:30 ~ 8:30</div>
+                        <div class="schedule-class major">전공반</div>
+                        <div class="schedule-class ballet">성인발레 LV.1 <span class="time-sub">*7:30~8:30</span></div>
+                    </div>
+                </div>
+
+                <div class="schedule-day-content" data-day="wed">
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 10:00 ~ 11:00</div>
+                        <div class="schedule-class ballet">성인발레 LV.1</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 11:00 ~ 12:00</div>
+                        <div class="schedule-class ballet">성인 발레 LV.2 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">성인 한국무용 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 3:30 ~ 4:25</div>
+                        <div class="schedule-class ballet">초등발레 영재기초반</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 4:30 ~ 5:25</div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">B홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재 기초반 <span class="hall-tag">C홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 5:30 ~ 6:30</div>
+                        <div class="schedule-class ballet">초등발레 영재반 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재반 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 6:30 ~ 8:30</div>
+                        <div class="schedule-class major">전공반</div>
+                    </div>
+                </div>
+
+                <div class="schedule-day-content" data-day="thu">
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 11:00 ~ 12:00</div>
+                        <div class="schedule-class korean">성인 한국무용 기초 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">성인 한국무용 중급 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 3:30 ~ 4:25</div>
+                        <div class="schedule-class ballet">초등발레 영재기초반</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 4:30 ~ 5:25</div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">유아 한국무용 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 5:30 ~ 6:30</div>
+                        <div class="schedule-class korean">한국무용 영재반 <span class="hall-tag">A홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 6:30 ~ 8:30</div>
+                        <div class="schedule-class major">전공반</div>
+                        <div class="schedule-class ballet">성인발레 LV.1 <span class="time-sub">*7:30~8:30</span></div>
+                    </div>
+                </div>
+
+                <div class="schedule-day-content" data-day="fri">
+                    <div class="schedule-card">
+                        <div class="schedule-time">AM 11:00 ~ 12:00</div>
+                        <div class="schedule-class korean">성인 한국무용 기초 <span class="hall-tag">A홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 3:30 ~ 4:25</div>
+                        <div class="schedule-class ballet">초등발레 영재기초반</div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 4:30 ~ 5:25</div>
+                        <div class="schedule-class ballet">유아발레 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재 기초반 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 5:30 ~ 6:30</div>
+                        <div class="schedule-class ballet">초등발레 영재반 <span class="hall-tag">A홀</span></div>
+                        <div class="schedule-class korean">한국무용 영재반 <span class="hall-tag">B홀</span></div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-time">PM 6:30 ~ 8:30</div>
+                        <div class="schedule-class major">전공반</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
