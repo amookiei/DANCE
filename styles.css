@@ -59,6 +59,7 @@ body {
     font-size: 15px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
 }
 
 /* Mobile only - prevent overscroll bounce */
@@ -667,10 +668,12 @@ ul {
     font-size: 13px;
     line-height: 1.9;
     letter-spacing: 0.3px;
+    word-break: keep-all;
 }
 
 .profile-career li {
     margin-bottom: 3px;
+    word-break: keep-all;
 }
 
 .profile-career strong {
@@ -833,7 +836,7 @@ ul {
 .schedule-table td {
     border: 1px solid #e8e8e8;
     padding: 16px 12px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .schedule-table th {
@@ -1327,6 +1330,10 @@ a.gallery-item:hover::after {
 
     .profile-career {
         text-align: left;
+        max-width: 320px;
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 20px;
     }
 
     .profile-row {
