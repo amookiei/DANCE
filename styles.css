@@ -1330,7 +1330,7 @@ a.gallery-item:hover::after {
 
     .profile-card.main-card .profile-info {
         width: 100%;
-        padding: 0 20px;
+        padding: 0 32px;
     }
 
     .profile-career {
@@ -1346,6 +1346,7 @@ a.gallery-item:hover::after {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 0 32px;
     }
 
     .program-item,
