@@ -188,4 +188,24 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // ========================================
+    // Mobile Schedule Tabs
+    // ========================================
+    const dayTabs = document.querySelectorAll('.day-tab');
+    const dayContents = document.querySelectorAll('.schedule-day-content');
+
+    dayTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const day = this.getAttribute('data-day');
+
+            // Remove active from all tabs and contents
+            dayTabs.forEach(t => t.classList.remove('active'));
+            dayContents.forEach(c => c.classList.remove('active'));
+
+            // Add active to clicked tab and corresponding content
+            this.classList.add('active');
+            document.querySelector(`.schedule-day-content[data-day="${day}"]`).classList.add('active');
+        });
+    });
+
 });
