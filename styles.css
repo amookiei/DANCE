@@ -757,6 +757,18 @@ ul {
     padding: 80px 40px;
 }
 
+.schedule-image-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.schedule-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
 .schedule-table-wrapper {
     overflow-x: auto;
 }
