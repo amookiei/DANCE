@@ -1328,12 +1328,20 @@ a.gallery-item:hover::after {
         text-align: center;
     }
 
+    .profile-card.main-card .profile-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card.main-card .profile-career {
+        text-align: left;
+        display: inline-block;
+    }
+
     .profile-career {
         text-align: left;
-        max-width: 320px;
-        margin: 0 auto;
         padding-left: 24px;
-        padding-right: 20px;
     }
 
     .profile-row {
