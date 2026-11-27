@@ -1329,14 +1329,8 @@ a.gallery-item:hover::after {
     }
 
     .profile-card.main-card .profile-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .profile-card.main-card .profile-career {
-        text-align: left;
-        display: inline-block;
+        width: 100%;
+        padding: 0 20px;
     }
 
     .profile-career {
