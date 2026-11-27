@@ -1330,10 +1330,7 @@ a.gallery-item:hover::after {
 
     .profile-career {
         text-align: left;
-        max-width: 320px;
-        margin: 0 auto;
         padding-left: 24px;
-        padding-right: 20px;
     }
 
     .profile-row {
