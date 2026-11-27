@@ -1328,6 +1328,17 @@ a.gallery-item:hover::after {
         text-align: center;
     }
 
+    .profile-card.main-card .profile-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card.main-card .profile-career {
+        text-align: left;
+        display: inline-block;
+    }
+
     .profile-career {
         text-align: left;
         padding-left: 24px;
