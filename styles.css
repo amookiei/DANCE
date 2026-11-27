@@ -833,7 +833,7 @@ ul {
 .schedule-table td {
     border: 1px solid #e8e8e8;
     padding: 16px 12px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .schedule-table th {
